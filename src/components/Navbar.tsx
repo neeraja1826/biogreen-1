@@ -96,7 +96,7 @@ export function Navbar() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link to="/contact" className="hidden rounded-full bg-forest px-5 py-2.5 text-[15px] font-semibold text-white shadow-soft transition-[background-color,transform] duration-150 ease-out hover:-translate-y-0.5 hover:bg-leaf md:inline-flex" style={{ flexDirection: "row", alignItems: "normal", justifyContent: "normal" }}>
+            <Link to="/contact" className="hidden whitespace-nowrap rounded-full bg-forest px-5 py-2.5 text-[15px] font-semibold text-white shadow-soft transition-[background-color,transform] duration-150 ease-out hover:-translate-y-0.5 hover:bg-leaf md:inline-flex">
               Join With Us
             </Link>
             <button
